@@ -7,7 +7,16 @@ Projeto Pocco Pamonhas
 
 Projeto de migração de várias cargas de trabalho que, atualmente, estão no Apache Nifi para o Azure Databricks. Além de migrar os fluxos de trabalho a POCCO quer aproveitar a oportunidade para estruturar seu Data Warehouse, conforme especificado abaixo. Você deverá desenvolver um algoritmo em Python ou PySpark no Azure Databricks consumindo um arquivo disponibilizado no Azure Blob Storage, ingerir esses dados no SQL Server e construir um dashboard seguindo as especificações detalhadas abaixo.
 
-I - Especificação para construção dos dashboard em Power BI
+
+I - Especificação para reestruturação do Data Warehouse
+
+Os relatórios desenvolvidos no Power BI deverão apontar para as seguintes tabelas: 
+- Dimensão com as regiões.
+- Dimensão com país.
+- Dimensão com Canais de venda.
+- Fato com as vendas
+
+II - Especificação para construção dos dashboard em Power BI
 
 VENDAS = quantidade de itens multiplicados pelo valor do item.
 - O acumulado de vendas do último ano por Região e País. Ele gostaria de ter essa visão através de um Mapa Mundial diretamente no Relatório.
@@ -15,13 +24,6 @@ VENDAS = quantidade de itens multiplicados pelo valor do item.
 - Quantidade de vendas e a Quantidade acumulada de vendas dos últimos 30 dias.
 - Uma visão acumulada das vendas do último ano por Canal e País. De forma que seja possível ver a distribuição das vendas um determinado país por canal.
 
-II - Especificação para reestruturação do Data Warehouse
-
-Os relatórios desenvolvidos no Power BI deverão apontar para as seguintes tabelas: 
-- Dimensão com as regiões.
-- Dimensão com país.
-- Dimensão com Canais de venda.
-- Fato com as vendas
 
 
 2.0 - SOLUÇÃO PROPOSTA
@@ -44,10 +46,19 @@ Schemas:
 - Desenvolver no Power BI as visões que atendam as necessidades apresentadas pela empresa.
 
 
-III - RESULTADOS DO PROJETO
+  
+3.0 - RESULTADOS DO PROJETO
 
-RESULTADO FINAL PIPELINE AZURE DATAFACTORY:
+  3.1 - Resultado Final Pipeline no Azure Datafactory:
 
+![Pipeline-lab03](https://user-images.githubusercontent.com/57818977/220207934-9b0321f7-601e-4b10-bbd7-96a930e571d7.png)
+  
+
+  3.2 - Resultado da reestruturação do Data Warehouse (conforme Especificação I):
+  
+![DW](https://user-images.githubusercontent.com/57818977/220210060-b494f2a2-bbe4-426e-9b42-91deeabe9f11.png)
+  
+  
 
 
 
