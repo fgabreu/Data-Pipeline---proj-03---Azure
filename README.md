@@ -19,12 +19,12 @@ Os relatórios desenvolvidos no Power BI deverão apontar para as seguintes tabe
 II - Especificação para construção dos dashboard em Power BI
 
 VENDAS = quantidade de itens multiplicados pelo valor do item.
-- O acumulado de vendas do último ano por Região e País. Ele gostaria de ter essa visão através de um Mapa Mundial diretamente no Relatório.
+- O acumulado de vendas dos últimos 365 dias por Região e País. Ele gostaria de ter essa visão através de um Mapa Mundial diretamente no Relatório.
 - Quantidade de vendas dos últimos 10 dias através de um gráfico de colunas.
 - Quantidade de vendas e a Quantidade acumulada de vendas dos últimos 30 dias.
 - Uma visão acumulada das vendas do último ano por Canal e País. De forma que seja possível ver a distribuição das vendas um determinado país por canal.
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2.0 - SOLUÇÃO PROPOSTA
 
@@ -46,6 +46,7 @@ Schemas:
 - Desenvolver no Power BI as visões que atendam as necessidades apresentadas pela empresa.
 
 
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 3.0 - RESULTADOS DO PROJETO
 
@@ -57,6 +58,23 @@ Schemas:
   3.2 - Resultado da reestruturação do Data Warehouse (conforme Especificação I):
   
 ![DW](https://user-images.githubusercontent.com/57818977/220210060-b494f2a2-bbe4-426e-9b42-91deeabe9f11.png)
+  
+  3.3 - Dashboard em Power BI (conforme necessidades Especificação II):
+  
+  - Acumulado de vendas dos últimos 365 dias por Região e País, contendo um Mapa Mundial:
+  
+![acumulado ultimos 365dias](https://user-images.githubusercontent.com/57818977/220210780-c54a1558-fe19-4248-b298-31c9c42f3c7d.png)
+  
+  - Quantidade de vendas dos últimos 10 dias através de um gráfico de colunas:
+ 
+![vendas 10 dias](https://user-images.githubusercontent.com/57818977/220211245-987b01f2-8de3-4f19-9e28-0c897852fec4.png)
+  
+  - Quantidade de vendas e a Quantidade acumulada de vendas dos últimos 30 dias.
+  
+![vendas 30 dias](https://user-images.githubusercontent.com/57818977/220210884-23e7c42b-a480-4a49-8e3b-f97caa581437.png)
+  
+ 
+ 
   
   
 
