@@ -1,11 +1,9 @@
 # Lab-03---Azure
-Projeto Interno 03 Big Data - Azure (Blueshift Brasil)
-
-Projeto Pocco Pamonhas
+Projeto 03 Big Data - Azure
 
 1.0 - REQUISITOS DO CLIENTE
 
-Projeto de migração de várias cargas de trabalho que, atualmente, estão no Apache Nifi para o Azure Databricks. Além de migrar os fluxos de trabalho a POCCO quer aproveitar a oportunidade para estruturar seu Data Warehouse, conforme especificado abaixo. Você deverá desenvolver um algoritmo em Python ou PySpark no Azure Databricks consumindo um arquivo disponibilizado no Azure Blob Storage, ingerir esses dados no SQL Server e construir um dashboard seguindo as especificações detalhadas abaixo.
+Projeto de migração de várias cargas de trabalho que, atualmente, estão no Apache Nifi para o Azure Databricks. Além de migrar os fluxos de trabalho a empresa quer aproveitar a oportunidade para estruturar seu Data Warehouse, conforme especificado abaixo. Você deverá desenvolver um algoritmo em Python ou PySpark no Azure Databricks consumindo um arquivo disponibilizado no Azure Blob Storage, ingerir esses dados no SQL Server e construir um dashboard seguindo as especificações detalhadas abaixo.
 
 
 I - Especificação para reestruturação do Data Warehouse
