@@ -1,4 +1,4 @@
-# Lab-03---Azure
+# Proj-03---Azure
 Projeto 03 Big Data - Azure
 
 1.0 - REQUISITOS DO CLIENTE
@@ -39,7 +39,7 @@ To do
 Schemas:
 - Criar um schema no SQL Server chamado STAGE_<SEU NOME>;
 - Criar um schema no SQL Server chamado DW_<SEU NOME>;
-- Desenvolver o ETL ou EL para fazer a primeira ingestão: do Blob para o SQL Server.
+- Desenvolver o ETL ou ELT para fazer a primeira ingestão: do Blob para o SQL Server.
 - Desenvolver uma PROCEDURE para popular as tabelas finais: do SQL Server(schema STAGE) para o SQL Server(schema DW).
 - Desenvolver no Power BI as visões que atendam as necessidades apresentadas pela empresa.
 
